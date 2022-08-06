@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 module "network" {
   source  = "app.terraform.io/skillfield/network/azurerm"
   version = "3.5.0"
